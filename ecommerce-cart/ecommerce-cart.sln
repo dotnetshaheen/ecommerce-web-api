@@ -5,6 +5,24 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce-cart", "ecommerce-cart\ecommerce-cart.csproj", "{563D94CE-8DC1-4005-88EE-9677AF60E65C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ecommerce.api", "ecommerce.api", "{A63FCB88-3A16-4C34-A326-769358ADCA40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ecommerce.Models", "ecommerce.Models", "{1779F207-2E55-4F5E-AB65-29BCA2138B8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ecommerce.Services", "ecommerce.Services", "{D073CD46-DA91-452F-A0E0-070B83CF9A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ecommerce.Repository", "ecommerce.Repository", "{8775C50B-18E4-438E-86AC-12BABCEB4855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ecommerce.Utility", "ecommerce.Utility", "{6B7945A2-5E7D-426C-8824-36AB3C384B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Models", "ecommerce.Models\ecommerce.Models.csproj", "{76017D16-D82F-404E-98DA-D7F7B8454B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Repository", "ecommerce.Repository\ecommerce.Repository.csproj", "{40E94BD2-D888-48C1-A69A-C45E2DD4F08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Services", "ecommerce.Services\ecommerce.Services.csproj", "{FD7CFC9D-0AA2-4BB8-8A37-869CA3F81DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Utility", "ecommerce.Utility\ecommerce.Utility.csproj", "{8E4D288F-E5F7-4C2E-8313-B867A4ADAF77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +33,32 @@ Global
 		{563D94CE-8DC1-4005-88EE-9677AF60E65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563D94CE-8DC1-4005-88EE-9677AF60E65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563D94CE-8DC1-4005-88EE-9677AF60E65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76017D16-D82F-404E-98DA-D7F7B8454B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76017D16-D82F-404E-98DA-D7F7B8454B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76017D16-D82F-404E-98DA-D7F7B8454B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76017D16-D82F-404E-98DA-D7F7B8454B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E94BD2-D888-48C1-A69A-C45E2DD4F08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E94BD2-D888-48C1-A69A-C45E2DD4F08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E94BD2-D888-48C1-A69A-C45E2DD4F08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E94BD2-D888-48C1-A69A-C45E2DD4F08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7CFC9D-0AA2-4BB8-8A37-869CA3F81DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7CFC9D-0AA2-4BB8-8A37-869CA3F81DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7CFC9D-0AA2-4BB8-8A37-869CA3F81DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7CFC9D-0AA2-4BB8-8A37-869CA3F81DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4D288F-E5F7-4C2E-8313-B867A4ADAF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4D288F-E5F7-4C2E-8313-B867A4ADAF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4D288F-E5F7-4C2E-8313-B867A4ADAF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4D288F-E5F7-4C2E-8313-B867A4ADAF77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{563D94CE-8DC1-4005-88EE-9677AF60E65C} = {A63FCB88-3A16-4C34-A326-769358ADCA40}
+		{76017D16-D82F-404E-98DA-D7F7B8454B22} = {1779F207-2E55-4F5E-AB65-29BCA2138B8D}
+		{40E94BD2-D888-48C1-A69A-C45E2DD4F08C} = {8775C50B-18E4-438E-86AC-12BABCEB4855}
+		{FD7CFC9D-0AA2-4BB8-8A37-869CA3F81DCE} = {D073CD46-DA91-452F-A0E0-070B83CF9A7A}
+		{8E4D288F-E5F7-4C2E-8313-B867A4ADAF77} = {6B7945A2-5E7D-426C-8824-36AB3C384B54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17F96B18-4322-4AB3-BAA8-908F6ECF53D9}
