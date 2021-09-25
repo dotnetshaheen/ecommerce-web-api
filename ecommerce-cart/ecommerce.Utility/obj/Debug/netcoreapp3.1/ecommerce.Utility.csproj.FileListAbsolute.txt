@@ -1,0 +1,9 @@
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\bin\Debug\netcoreapp3.1\ecommerce.Utility.deps.json
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\bin\Debug\netcoreapp3.1\ecommerce.Utility.dll
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\bin\Debug\netcoreapp3.1\ecommerce.Utility.pdb
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\obj\Debug\netcoreapp3.1\ecommerce.Utility.csproj.AssemblyReference.cache
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\obj\Debug\netcoreapp3.1\ecommerce.Utility.AssemblyInfoInputs.cache
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\obj\Debug\netcoreapp3.1\ecommerce.Utility.AssemblyInfo.cs
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\obj\Debug\netcoreapp3.1\ecommerce.Utility.csproj.CoreCompileInputs.cache
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\obj\Debug\netcoreapp3.1\ecommerce.Utility.dll
+H:\GITHUB\ecommerce-cart-api\ecommerce-cart\ecommerce.Utility\obj\Debug\netcoreapp3.1\ecommerce.Utility.pdb

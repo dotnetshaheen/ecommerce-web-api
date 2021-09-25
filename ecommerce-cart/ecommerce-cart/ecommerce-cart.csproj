@@ -5,5 +5,9 @@
     <RootNamespace>ecommerce_cart</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ecommerce.Services\ecommerce.Services.csproj" />
+  </ItemGroup>
+
 
 </Project>

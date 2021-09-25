@@ -1,0 +1,3 @@
+Reverse Engineering (Scaffolding command)
+---------------------
+dotnet ef dbcontext scaffold "Server=.;Database=ECommerceDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Data -c ECommerceDbContext-f

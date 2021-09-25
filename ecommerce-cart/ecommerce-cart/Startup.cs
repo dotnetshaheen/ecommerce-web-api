@@ -26,6 +26,8 @@ namespace ecommerce_cart
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            // Extension Method
+            services.ECommerceServiceRegister(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

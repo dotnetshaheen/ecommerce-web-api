@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="URF.Core.Abstractions.Services" Version="3.1.3" />
+    <PackageReference Include="URF.Core.Services" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ecommerce.Repository\ecommerce.Repository.csproj" />
+    <ProjectReference Include="..\ecommerce.Utility\ecommerce.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

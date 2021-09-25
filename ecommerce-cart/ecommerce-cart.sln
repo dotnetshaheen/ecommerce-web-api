@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce-cart", "ecommerce-cart\ecommerce-cart.csproj", "{563D94CE-8DC1-4005-88EE-9677AF60E65C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecommerce-cart", "ecommerce-cart\ecommerce-cart.csproj", "{563D94CE-8DC1-4005-88EE-9677AF60E65C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ecommerce.api", "ecommerce.api", "{A63FCB88-3A16-4C34-A326-769358ADCA40}"
 EndProject
@@ -15,13 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ecommerce.Repository", "eco
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ecommerce.Utility", "ecommerce.Utility", "{6B7945A2-5E7D-426C-8824-36AB3C384B54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Models", "ecommerce.Models\ecommerce.Models.csproj", "{76017D16-D82F-404E-98DA-D7F7B8454B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecommerce.Models", "ecommerce.Models\ecommerce.Models.csproj", "{76017D16-D82F-404E-98DA-D7F7B8454B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Repository", "ecommerce.Repository\ecommerce.Repository.csproj", "{40E94BD2-D888-48C1-A69A-C45E2DD4F08C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecommerce.Repository", "ecommerce.Repository\ecommerce.Repository.csproj", "{40E94BD2-D888-48C1-A69A-C45E2DD4F08C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Services", "ecommerce.Services\ecommerce.Services.csproj", "{FD7CFC9D-0AA2-4BB8-8A37-869CA3F81DCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecommerce.Services", "ecommerce.Services\ecommerce.Services.csproj", "{FD7CFC9D-0AA2-4BB8-8A37-869CA3F81DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.Utility", "ecommerce.Utility\ecommerce.Utility.csproj", "{8E4D288F-E5F7-4C2E-8313-B867A4ADAF77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecommerce.Utility", "ecommerce.Utility\ecommerce.Utility.csproj", "{8E4D288F-E5F7-4C2E-8313-B867A4ADAF77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
